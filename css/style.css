@@ -1,0 +1,43 @@
+
+:root{
+    --bs-Lobster: 'Lobster', cursive;
+    --bs-Roboto: 'Roboto', sans-serif;
+}
+
+.Lobsterfont{
+    font-family: 'Lobster', cursive;
+}
+.Robotofont{
+    font-family: 'Roboto', sans-serif;
+}
+/* body{
+    background-color: #000000;
+} */
+
+#hero{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/shutterstock.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tempdiv{
+    background-color: rgba(242, 139, 36,0.3);
+    box-shadow:2px 2px 6px black;
+}
+.form-control:focus{
+    border-color: #011820ff;
+    box-shadow: 0px 1px 2px #f28b24 inset, 0px 0px 8px #f28b24;
+}
+.formbtn{
+    border: 2px solid #f28b24;
+    transition: 1s;
+}
+.formbtn:hover{
+    background-color: #000 !important;
+    color: #f28b24 !important;
+    border-color: #ffffff !important;
+}
+#alert1{
+    display: none;
+}
